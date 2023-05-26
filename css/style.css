@@ -1,15 +1,15 @@
 body {
-    background-color: #372948;
-} 
+  background-color: #372948;
+}
 
 header {
-    z-index: 100;
+  z-index: 100;
 }
 
 .description {
-    height: 25px;
-    overflow: hidden;
-    transition: height .3s ease-in .3s; 
+  height: 25px;
+  overflow: hidden;
+  transition: height 0.3s ease-in 0.3s;
 }
 
 /* .description:hover {
@@ -17,92 +17,95 @@ header {
 
 } */
 
-
 #pills-home-tab {
-    background-color: #790252;
-    margin: 5px;
+  background-color: #790252;
+  margin: 5px;
 }
 
 #pills-profile-tab {
-    background-color: #790252;
-    margin: 5px;
+  background-color: #790252;
+  margin: 5px;
 }
 
 #pills-contact-tab {
-    background-color: #790252;
-    margin: 5px;
+  background-color: #790252;
+  margin: 5px;
 }
 
 .nav-link {
-    color: #9c9e7c;
+  color: #9c9e7c;
 }
 
 .nav-link:hover {
-    color: #FEB139;
+  color: #feb139;
 }
 
 .titulo {
-    color: #704F4F;
+  color: #704f4f;
 }
 
 .titulo2 {
-    color: #704F4F;
+  color: #704f4f;
 }
 
 .precio {
-   color: #704F4F;
+  color: #704f4f;
 }
 
-.carrito{
-    min-height: 80vh;
-    max-width: 1000px;
-    margin: 0 auto;
-    width: 100%;
-  }
-  .table__productos{
-    display: flex;
- 
-  }
-  .table__productos > img{
-    width: 6rem;
-    object-fit: contain;
-    border-radius: 6px;
-    margin-right: 20px;
-  }
-  .table__cantidad > input{
-    width: 40px;
-    border: none;
-    outline: 0;
-    font-size: 16px;
-    font-weight: 700;
-    margin-right: 30px;
-    margin-bottom: 20px;
-  }
-  .hide, .remove{
-    display: none;
-  }
+.carrito {
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.table__productos {
+  display: flex;
+}
+.table__productos > img {
+  width: 6rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
 
-  
 
-  .portada {
-    width: 63%;
-    
-    margin: 0px 250px;
-    display: flex;
-    justify-content: center;
-    border-radius: 8px;
-    
-    transition: all 1s;
-  }
+.table__cantidad > input {
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.hide,
+.remove {
+  display: none;
+}
 
-  .btno {
-    background-color: #9c9e7c;
-  }
+.contenedor-portada {
+  display: flex;
+}
 
-  .btno:hover {
-    background-color:  #cf881e;
-  }
+.portada {
+  max-width: 60%;
+  height: auto;
+  object-fit: cover;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
 
-  .btno:active {
-    background-color: #b45e43;
-  }
+
+.btno {
+  background-color: #9c9e7c;
+}
+
+.btno:hover {
+  background-color: #cf881e;
+}
+
+.btno:active {
+  background-color: #b45e43;
+}
