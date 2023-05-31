@@ -1,5 +1,7 @@
 body {
   background-color: #372948;
+  display: grid;
+  min-height: 100vh;
 }
 
 header {
@@ -12,10 +14,6 @@ header {
   transition: height 0.3s ease-in 0.3s;
 }
 
-/* .description:hover {
-    height: 25px;
-
-} */
 
 #pills-home-tab {
   background-color: #790252;
@@ -108,4 +106,8 @@ header {
 
 .btno:active {
   background-color: #b45e43;
+}
+
+.footer-wrapper {
+  align-self: end;
 }
