@@ -39,7 +39,8 @@ header {
 }
 
 .titulo {
-  color: #704f4f;
+  color: #966767;
+  padding: 0 10px;
 }
 
 .titulo2 {
@@ -48,6 +49,11 @@ header {
 
 .precio {
   color: #704f4f;
+}
+
+.introduccion {
+  color: #966767;
+  padding: 0 25px;
 }
 
 .carrito {
